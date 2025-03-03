@@ -1,28 +1,30 @@
 header {
     background-color: rgb(90, 79, 61);
     background-size: cover;
-    height: 200px; /* Állítsd be a kívánt magasságot */
-    text-align: center;
+    height: 100px; /* Állítsd be a kívánt magasságot */
     color: rgb(228, 222, 222);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Copperplate, fantasy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     
 }
-header span {
+header img {
+    height: 150%;
+    width: auto;
+    padding-left: 25px;
+    margin-top: -20px;
+}
+header a{
 
-    border-radius: 5px;
-    border-width: 15px;
+    margin: auto;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background-color: rgb(6, 94, 99);
-    background: url('halak.jpg') no-repeat;
-    background-size: 130%;
+    background: url('bckgrnd.jpg') no-repeat;
+    background-size: 100%;
 
 }
 
@@ -41,29 +43,31 @@ body {
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 20%;
+    width: 15%;
 }
 
 .product img {
     max-width: 100%;
     height: auto;
+
 }
-
-
-
-.btn {
-    display: inline-block;
-    padding: 10px 15px;
-    margin-top: 10px;
-    background: #5cb85c;
+button{
     color: white;
+    background-color: rgb(201, 153, 76);
+    padding: 10px 16px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     border-radius: 5px;
-    cursor: pointer;
 }
-.btn:hover {
-    background: #4cae4c;
+button:hover{
+    opacity: 50%;
 }
+button.termekek{
+    
+}
+
 #cart {
     position: fixed;
     top: 20px;
